@@ -5,6 +5,15 @@
 		"factoryName": {
 			"value": "Najaf-Test"
 		},
+		"ls_najaftestdb_connectionString": {
+			"value": ""
+		},
+		"ls_salesdb_connectionString": {
+			"value": ""
+		},
+		"bls_sales_connectionString": {
+			"value": ""
+		},
 		"containerUri": {
 			"value": ""
 		},

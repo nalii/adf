@@ -7,6 +7,18 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "Najaf-Test"
 		},
+		"ls_najaftestdb_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'ls_najaftestdb'"
+		},
+		"ls_salesdb_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'ls_salesdb'"
+		},
+		"bls_sales_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'bls_sales'"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -33,6 +45,15 @@
 				"parameters": {
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
+					},
+					"ls_najaftestdb_connectionString": {
+						"value": "[parameters('ls_najaftestdb_connectionString')]"
+					},
+					"ls_salesdb_connectionString": {
+						"value": "[parameters('ls_salesdb_connectionString')]"
+					},
+					"bls_sales_connectionString": {
+						"value": "[parameters('bls_sales_connectionString')]"
 					}
 				}
 			},
